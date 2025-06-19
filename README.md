@@ -6,4 +6,4 @@ This website application is created using EJS templating language, CSS, ExpressJ
 - You can create a whole new list by just typing it in your URL search dialog box on your browser this way: "/<name of list you want to create>"
 - Example: ("/Work") will automatically create a new todo-list with Work as the title.
 - Enjoy !!!
-- Lemme know what you think bout it too on my Twitter @Hackingjay2. Thanks👌
+- Lemme know what you think bout it too on my Twitter @maludatechdev. Thanks👌
