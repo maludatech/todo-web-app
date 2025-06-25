@@ -11,6 +11,28 @@ export const metadata: Metadata = {
     default: `${APP_NAME} | ${APP_SLOGAN}`,
   },
   description: APP_DESCRIPTION,
+  openGraph: {
+    title: APP_NAME,
+    description: APP_DESCRIPTION,
+    url: "https://bitebazaer.vercel.app",
+    siteName: APP_NAME,
+    images: [
+      {
+        url: "/assets/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Bitebazaar Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: APP_NAME,
+    description: APP_DESCRIPTION,
+    images: ["/assets/images/og-image.png"],
+  },
 };
 
 const rubik = Rubik({
@@ -18,6 +40,7 @@ const rubik = Rubik({
   weight: ["400", "500", "700"],
   variable: "--font-rubik",
 });
+
 export default function RootLayout({
   children,
 }: Readonly<{
