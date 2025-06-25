@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: APP_NAME,
     description: APP_DESCRIPTION,
-    url: "https://bitebazaer.vercel.app",
+    url: "https://maluda-todo.vercel.app",
     siteName: APP_NAME,
     images: [
       {
         url: "/assets/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Bitebazaar Preview",
+        alt: `${APP_NAME} Preview`,
       },
     ],
     locale: "en_US",
