@@ -3,4 +3,4 @@ export const APP_SLOGAN =
   process.env.APP_SLOGAN || "Stay organized. Get things done.";
 export const APP_DESCRIPTION =
   process.env.DESCRIPTION ||
-  "aluda's Todo is a simple, clean, and efficient task management app built to help you focus, stay productive, and crush your goals—one task at a time.";
+  "Maluda's Todo is a simple, clean, and efficient task management app built to help you focus, stay productive, and crush your goals—one task at a time.";
